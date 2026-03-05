@@ -1,6 +1,6 @@
-package it.is.test.server;
+package it.is.socket.server;
 
-import it.is.test.CommonVars;
+import it.is.socket.CommonVars;
 
 import java.io.IOException;
 import java.net.ServerSocket;

@@ -1,9 +1,9 @@
-package it.is.test.server.processor;
+package it.is.socket.server.processor;
 
-import it.is.test.client.protocol.ClientProtocol;
-import it.is.test.server.PlayerLocationsGlobalContainer;
-import it.is.test.server.SingleClientStreamContainer;
-import it.is.test.server.protocol.dto.PlayerInfo;
+import it.is.socket.client.protocol.ClientProtocol;
+import it.is.socket.server.PlayerLocationsGlobalContainer;
+import it.is.socket.server.SingleClientStreamContainer;
+import it.is.socket.server.protocol.dto.PlayerInfo;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;

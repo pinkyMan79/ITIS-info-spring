@@ -1,9 +1,9 @@
-package it.is.test.client;
+package it.is.socket.client;
 
-import it.is.test.client.processor.ClientInputProcessor;
-import it.is.test.client.processor.MapRewriterProcessor;
-import it.is.test.client.processor.ServerStreamProcessor;
-import it.is.test.client.protocol.LoginProtocol;
+import it.is.socket.client.processor.ClientInputProcessor;
+import it.is.socket.client.processor.MapRewriterProcessor;
+import it.is.socket.client.processor.ServerStreamProcessor;
+import it.is.socket.client.protocol.LoginProtocol;
 
 import java.io.IOException;
 import java.io.ObjectOutputStream;

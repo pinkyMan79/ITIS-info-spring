@@ -1,4 +1,4 @@
-package it.is.test.client.protocol;
+package it.is.socket.client.protocol;
 
 import java.io.Serializable;
 import java.util.UUID;

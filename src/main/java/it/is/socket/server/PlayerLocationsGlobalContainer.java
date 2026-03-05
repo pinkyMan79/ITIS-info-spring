@@ -1,6 +1,6 @@
-package it.is.test.server;
+package it.is.socket.server;
 
-import it.is.test.server.protocol.dto.PlayerInfo;
+import it.is.socket.server.protocol.dto.PlayerInfo;
 
 import java.util.HashMap;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package it.is.test.server.protocol.dto;
+package it.is.socket.server.protocol.dto;
 
 import java.io.Serializable;
 

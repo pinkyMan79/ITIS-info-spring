@@ -1,6 +1,6 @@
-package it.is.test.server.protocol;
+package it.is.socket.server.protocol;
 
-import it.is.test.server.protocol.dto.PlayerInfo;
+import it.is.socket.server.protocol.dto.PlayerInfo;
 
 import java.io.Serializable;
 import java.util.Set;

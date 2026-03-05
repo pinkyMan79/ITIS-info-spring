@@ -1,4 +1,4 @@
-package it.is.test.client.processor.lock;
+package it.is.socket.client.processor.lock;
 
 public class MonitorContainer {
 

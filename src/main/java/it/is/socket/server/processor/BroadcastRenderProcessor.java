@@ -1,8 +1,8 @@
-package it.is.test.server.processor;
+package it.is.socket.server.processor;
 
-import it.is.test.server.PlayerLocationsGlobalContainer;
-import it.is.test.server.SingleClientStreamContainer;
-import it.is.test.server.protocol.ServerBroadcastProtocol;
+import it.is.socket.server.PlayerLocationsGlobalContainer;
+import it.is.socket.server.SingleClientStreamContainer;
+import it.is.socket.server.protocol.ServerBroadcastProtocol;
 
 import java.io.IOException;
 import java.net.ServerSocket;

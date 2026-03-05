@@ -1,6 +1,6 @@
-package it.is.test.client.processor;
+package it.is.socket.client.processor;
 
-import it.is.test.client.processor.lock.MonitorContainer;
+import it.is.socket.client.processor.lock.MonitorContainer;
 
 public class MapRewriterProcessor {
 

@@ -1,4 +1,4 @@
-package it.is.test;
+package it.is.socket;
 
 public class CommonVars {
 

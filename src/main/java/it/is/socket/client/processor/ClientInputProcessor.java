@@ -1,7 +1,7 @@
-package it.is.test.client.processor;
+package it.is.socket.client.processor;
 
-import it.is.test.client.GlobalClientStreamContainer;
-import it.is.test.client.protocol.ClientProtocol;
+import it.is.socket.client.GlobalClientStreamContainer;
+import it.is.socket.client.protocol.ClientProtocol;
 
 import java.io.IOException;
 import java.io.ObjectOutputStream;

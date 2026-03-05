@@ -1,9 +1,9 @@
-package it.is.test.server;
+package it.is.socket.server;
 
-import it.is.test.client.protocol.LoginProtocol;
-import it.is.test.server.processor.BroadcastRenderProcessor;
-import it.is.test.server.processor.ClientInputProcessor;
-import it.is.test.server.protocol.dto.PlayerInfo;
+import it.is.socket.client.protocol.LoginProtocol;
+import it.is.socket.server.processor.BroadcastRenderProcessor;
+import it.is.socket.server.processor.ClientInputProcessor;
+import it.is.socket.server.protocol.dto.PlayerInfo;
 
 import java.io.IOException;
 import java.net.ServerSocket;
