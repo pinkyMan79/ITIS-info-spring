@@ -10,7 +10,7 @@ public class ClientInit {
     public static void main(String[] args) throws IOException, InterruptedException {
         GlobalClientStreamContainer globalClientStreamContainer =
                 new GlobalClientStreamContainer(new Socket(CommonVars.HOST, CommonVars.SERVER_PORT));
-        Client client = new Client(globalClientStreamContainer, 'R');
+        Client client = new Client(globalClientStreamContainer, 'X');
         client.initServerStreamProcessor();
         client.initClientInputProcessor();
         client.initMapRewriterProcessor();

@@ -16,7 +16,7 @@ public class ServerInit {
                 20,
                 1000L,
                 TimeUnit.MILLISECONDS,
-                new LinkedBlockingQueue<Runnable>()
+                new LinkedBlockingQueue<>()
         );
         Server server = new Server(new ServerSocket(CommonVars.SERVER_PORT), threadPoolExecutor);
         server.initBroadcastRenderProcessor();

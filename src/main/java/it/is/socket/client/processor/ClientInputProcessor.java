@@ -25,7 +25,7 @@ public class ClientInputProcessor {
             GlobalClientStreamContainer globalClientStreamContainer,
             UUID id,
             char sym
-    ) throws IOException {
+    ) {
         this.clientSocket = globalClientStreamContainer.getClientSocket();
         this.objectOutputStream = globalClientStreamContainer.getObjectOutputStream();
         this.id = id;

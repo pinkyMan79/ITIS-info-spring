@@ -11,7 +11,7 @@ import java.util.UUID;
 
 public class BroadcastRenderProcessor {
 
-    private final Map<UUID,SingleClientStreamContainer> clientStreamContainers;
+    private final Map<UUID, SingleClientStreamContainer> clientStreamContainers;
     private final ServerSocket serverSocket;
 
     public BroadcastRenderProcessor(Map<UUID, SingleClientStreamContainer> clientStreamContainers, ServerSocket serverSocket) {

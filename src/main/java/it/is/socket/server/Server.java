@@ -31,7 +31,7 @@ public class Server {
         this.serverSocket = serverSocket;
         this.clientPool = clientPool;
         this.clientInputProcessor = new ClientInputProcessor(clients);
-        broadcastRenderProcessor = new BroadcastRenderProcessor(clients, serverSocket);
+        this.broadcastRenderProcessor = new BroadcastRenderProcessor(clients, serverSocket);
     }
 
     public SingleClientStreamContainer acceptNewConnection() throws IOException, ClassNotFoundException {

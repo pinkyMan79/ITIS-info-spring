@@ -20,7 +20,7 @@ public class Client {
     private final MapRewriterProcessor mapRewriterProcessor;
     private final ServerStreamProcessor serverStreamProcessor;
 
-    private char[][] initMap = new char[20][20];
+    private final char[][] initMap = new char[20][20];
 
     public Client(GlobalClientStreamContainer globalClientStreamContainer, char sym) throws IOException {
         this.socket = globalClientStreamContainer.getClientSocket();
